@@ -10,8 +10,9 @@ header{
     display: flex;
     height: 80px;
     justify-content: space-around;
-    color: white;  
-}
+
+   
+    }
     html {
         display: block;
         color: -internal-root-color;
@@ -27,129 +28,28 @@ body {
   
 /*header*/
 
-
 header:hover{
     background: rgb(247, 245, 245);
     width: 100%;
-    color: black;
-    cursor: pointer;
-    
-   
    
 }
 header .navigation{
   display: flex;
   justify-content: space-around;
- 
-  
    
-}
-header, .into{
-    background-image:url(https://wistia.com/static/images/homepage/wistia-home-pattern_header@2x.webp);
-    background-size: 150px 130px;
-    
-   
-}
-header .navigation .bouton-to-start{
-    display: flex;
-    justify-content:flex-end;
-    padding-left: 278px;
-}
-.parties .bar-product a{
-    color: white;
-}
-header:hover .parties .bar-product a{
-    color: black;
-}
-.parties .bar-learning a{
-    color: white;
-}
-header:hover .parties .bar-learning a{
-    color: black;
-    cursor: pointer;
-}
-.parties .bar-series a{
-    color: white;
-}
-header:hover .parties .bar-series a{
-    color: black;
-}
-.parties .bar-about a{
-    color: white;
-}
-header:hover .parties .bar-about a{
-    color: black;
-}
-header  .btn-log{
-    width: 99px;
-        display: flex;
-        justify-content: center;
-        font-size: 15px;
-        margin-left: 38px;
-        font-weight: bold;
-
-      
-    }
-    header  .btn-start{
-        width: 99px;
-        display: flex;
-        justify-content: center;
-        font-size: 13px;
-        margin-left: 38px;
-        background-color: rgb(23, 154, 235);
-        color: white;
-        font-weight: bold;
-  
-    }
- .btn-log{
-   margin-top: 20px;
-    background-color:#ebe6e6 ;
-    color: rgb(7, 7, 7);
-    width: 60px;
-    height: 20px;
-    border-radius: 5px;
-  
-   padding: 10px;
-    
-}
-
-.btn-start:hover{
-    position: relative;
-    bottom: 5px;
-    border-bottom:4px solid rgb(131, 195, 235);
-    cursor: pointer;
-}
-.btn-log:hover{
-    position: relative;
-    bottom: 5px;
-    border-bottom:4px solid rgb(162, 164, 165);
-    border-left: 1px solid rgb(184, 187, 189);
-    border-right: 1px solid rgb(184, 187, 189);
-    border-top: 1px solid rgb(184, 187, 189);
-    cursor: pointer;
-}
- .btn-start{
-    margin-top: 20px;
-    background-color:#fcf8f9 ;
-    color: rgb(7, 7, 7);
-    width: 60px;
-    height: 20px;
-    border-radius: 5px;
-    margin-right: 16px;
-  padding: 10px;
-  
 }
 
 header:hover .navigation .logo-blue{
     z-index: 1;
     position: relative;
-    cursor: pointer;
+  
     margin-top: 15px;
      width: 37px;
      height: 36px;
     
   
 }
+
 
 header .navigation .logo-gris{
     margin-right: -141px;
@@ -176,35 +76,56 @@ header .navigation img{
    margin-top: 15px;
     width: 37px;
     height: 36px;
-    z-index: -1;    
+    z-index: -1;
+    
 }
-
 header .navigation .parties{
     display: flex;
     justify-content: space-around;
    width: 500px;
     padding-top:20px ;
-    padding-left: 20px;      
+    padding-left: 20px;
+   
     
 }
 
-
-/* header product*/
-
-.navigation .bar-product .dropbtn{
+.navigation .bar1 .dropbtn{
     text-decoration: none;
-    
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: bold;
 }
-.navigation .bar-product:hover .dropbtn {
+.navigation .bar2 .dropbtn{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navigation .bar3 .dropbtn{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* header product*/
+
+.navigation .bar .dropbtn{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navigation .bar:hover .dropbtn {
     text-decoration: none;
     width: 100%;
     color: rgb(10, 145, 246);
-    cursor: pointer;
   }
-.navigation .bar-product .dropdown-content {
+.navigation .bar .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -212,18 +133,17 @@ header .navigation .parties{
     z-index: 1;
     border-top:1px solid rgb(197, 197, 197) ;
     margin-top: 41px;
-    left: -216px;
-    padding-left: 291px;
+    left: -706px;
+    padding-left: 444px;
     box-shadow: none;
     padding-right: 1100px;
-
   } 
-  .navigation .bar-product:hover .dropdown-content 
+  .navigation .bar:hover .dropdown-content 
 {
  display: flex;
 }
  
-.navigation .bar-product .dropdown-content ul {
+.navigation .bar .dropdown-content ul {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -231,18 +151,24 @@ header .navigation .parties{
     display: block;
     width: 170px;
   }
-.navigation .bar-product {
+.navigation .bar {
+    
+
+
     position: relative;
     display: inline-block;
-    width: 66px;     
+    width: 66px;
+  
+    color: white;
 
-}
-  .navigation .bar-product .dropdown-content .product {
+
+  }
+  .navigation .bar .dropdown-content .product {
     color: rgb(10, 145, 236);
     font-size: 30px;
     font-weight: bold;
 }
-.navigation .bar-product .dropdown-content .about-product {
+.navigation .bar .dropdown-content .about-product {
     color: rgb(153, 151, 151);
     font-size: 13px;
     line-height: 25px;
@@ -250,7 +176,7 @@ header .navigation .parties{
     font-weight: bold;
     
 }
-  .navigation .bar-product .dropdown-content .start-btn {
+  .navigation .bar .dropdown-content .start-btn {
     border: 1px solid rgb(10, 145, 236);
     background-color:rgb(10, 145, 236);
     color: white;
@@ -260,14 +186,13 @@ header .navigation .parties{
     font-weight: bold;
     width: 100px;
 }
-.navigation .bar-product .dropdown-content .start-btn:hover{
+.navigation .bar .dropdown-content .start-btn:hover{
     position: relative;
-    cursor: pointer;
     bottom: 5px;
     border-bottom: 3px solid rgb(41, 164, 247);
 
 }
-.navigation .bar-product .dropdown-content .feature a{
+.navigation .bar .dropdown-content .feature a{
     color: rgb(80, 79, 79);
     font-size: 14px;
     font-weight: bold;
@@ -275,19 +200,18 @@ header .navigation .parties{
     line-height: 25px;
 
   }
-  .navigation .bar-product .dropdown-content .feature a:hover{
+  .navigation .bar .dropdown-content .feature a:hover{
     color: rgb(10, 145, 236);
-    cursor: pointer;
   }
   
-  .navigation .bar-product .dropdown-content .create{
+  .navigation .bar .dropdown-content .create{
     color: rgb(153, 151, 151);
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     line-height: 25px;
 }
-.navigation .bar-product .dropdown-content .create a{
+.navigation .bar .dropdown-content .create a{
     color: rgb(153, 151, 151);
     font-size: 14px;
     font-weight: bold;
@@ -296,19 +220,18 @@ header .navigation .parties{
    
 }
 
-.navigation .bar-product .dropdown-content .create a:hover{
+.navigation .bar .dropdown-content .create a:hover{
     color: rgb(23, 24, 24);
-    cursor: pointer;
 }
 
-.navigation .bar-product .dropdown-content .present{
+.navigation .bar .dropdown-content .present{
     color: rgb(153, 151, 151);
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     line-height: 25px;
 }
-.navigation .bar-product .dropdown-content .present a{
+.navigation .bar .dropdown-content .present a{
     color: rgb(153, 151, 151);
     font-size: 14px;
     font-weight: bold;
@@ -316,21 +239,13 @@ header .navigation .parties{
     line-height: 25px;
    
 }
-.navigation .bar-product .dropdown-content .present a:hover{
+.navigation .bar .dropdown-content .present a:hover{
     color: rgb(23, 24, 24);
-    cursor: pointer;
 }
 
 /* header learning center*/
-.navigation .bar-learning .dropbtn{
-    text-decoration: none;
-
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    font-weight: bold;
-}
   
-.navigation .bar-learning .dropdown-content {
+.navigation .bar1 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -338,23 +253,21 @@ header .navigation .parties{
     z-index: 1;
     border-top:1px solid rgb(197, 197, 197) ;
     margin-top: 41px;
-    left: -773px;
-    padding-left: 675px;
+    left: -706px;
+    padding-left: 444px;
     
     padding-right: 1100px;
   }
-  .navigation .bar-learning:hover .dropdown-content 
+  .navigation .bar1:hover .dropdown-content 
   {
    display: flex;
-   cursor: pointer;
  }
-  .navigation .bar-learning:hover .dropbtn {
+  .navigation .bar1:hover .dropbtn {
     text-decoration: none;
     width: 100%;
     color: rgb(58, 177, 106);
-    cursor: pointer;
   }
-  .navigation .bar-learning .dropdown-content ul {
+  .navigation .bar1 .dropdown-content ul {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -362,20 +275,19 @@ header .navigation .parties{
     display: block;
     width: 150px;
   }
-  .navigation .bar-learning {
+  .navigation .bar1 {
     position: relative;
     display: inline-block;
     width: 135px;
     padding-left: 26px;
-   
+    color: white;
   }
-  .navigation .bar-learning .dropdown-content .learning {
+  .navigation .bar1 .dropdown-content .learning {
     color: rgb(58, 177, 106);
     font-size: 20px;
     font-weight: bold;
-
 }
-.navigation .bar-learning .dropdown-content .about-learning {
+.navigation .bar1 .dropdown-content .about-learning {
     color: rgb(153, 151, 151);
     font-size: 11px;
     line-height: 20px;
@@ -383,7 +295,7 @@ header .navigation .parties{
     font-weight: bold;
     
 }
-.navigation .bar-learning .dropdown-content .subscribe-btn {
+.navigation .bar1 .dropdown-content .subscribe-btn {
     border: 1px solid rgb(58, 177, 106);
     background-color:rgb(58, 177, 106);
     color: white;
@@ -393,14 +305,13 @@ header .navigation .parties{
     font-weight: bold;
     width: 100px;
 }
-.navigation .bar-learning .dropdown-content .subscribe-btn:hover{
+.navigation .bar1 .dropdown-content .subscribe-btn:hover{
     position: relative;
-    cursor: pointer;
     bottom: 5px;
     border-bottom: 3px solid rgb(97, 240, 154);
 
 }
-.navigation .bar-learning .dropdown-content .blog a{
+.navigation .bar1 .dropdown-content .blog a{
     color: rgb(80, 79, 79);
     font-size: 14px;
     font-weight: bold;
@@ -408,18 +319,17 @@ header .navigation .parties{
     line-height: 25px;
 
   }
-  .navigation .bar-learning .dropdown-content .blog a:hover{
+  .navigation .bar1 .dropdown-content .blog a:hover{
     color: rgb(58, 177, 106);
-    cursor: pointer;
   }
-  .navigation .bar-learning .dropdown-content .blog-categories{
+  .navigation .bar1 .dropdown-content .blog-categories{
     color: rgb(153, 151, 151);
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     line-height: 25px;
 }
-.navigation .bar-learning .dropdown-content .blog-categories a{
+.navigation .bar1 .dropdown-content .blog-categories a{
     color: rgb(153, 151, 151);
     font-size: 14px;
     font-weight: bold;
@@ -428,26 +338,25 @@ header .navigation .parties{
    
 }
 
-.navigation .bar-learning .dropdown-content .blog-categories a:hover{
+.navigation .bar1 .dropdown-content .blog-categories a:hover{
     color: rgb(23, 24, 24);
-    cursor: pointer;
 }
-  .navigation .bar-learning .dropdown-content .about-marketing .image {
+  .navigation .bar1 .dropdown-content .about-marketing .image {
     width: 100px;
     height: 133px;
     margin-top: -1px;
     z-index: 1;
   }
 
-.navigation .bar-learning .dropdown-content .about-marketing .marketing-ridge{
+.navigation .bar1 .dropdown-content .about-marketing .marketing-ridge{
    display: inline-block;
 
 }
-.navigation .bar-learning .dropdown-content .about-marketing .marketing-ridge h3{
+.navigation .bar1 .dropdown-content .about-marketing .marketing-ridge h3{
    font-size: 12px;
    color:rgb(80, 79, 79);
  }
- .navigation .bar-learning .dropdown-content .about-marketing .marketing-ridge p{
+ .navigation .bar1 .dropdown-content .about-marketing .marketing-ridge p{
     font-size: 12px;
     line-height: 20px;
    
@@ -456,7 +365,7 @@ header .navigation .parties{
 
      
   }
-.navigation .bar-learning .dropdown-content .about-marketing{
+.navigation .bar1 .dropdown-content .about-marketing{
     border: 1px solid rgb(221, 220, 220);
     padding-bottom: 26px;
     height: 105px;
@@ -469,17 +378,8 @@ header .navigation .parties{
 
 
   /* header video series*/
-  
 
-.navigation .bar-series .dropbtn{
-    text-decoration: none;
-    
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-  .navigation .bar-series .dropdown-content {
+  .navigation .bar2 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -487,23 +387,21 @@ header .navigation .parties{
     z-index: 1;
     border-top:1px solid rgb(197, 197, 197) ;
     margin-top: 41px;
-    left: -959px;
-    padding-left: 510px;
+    left: -922px;
+    padding-left: 200px;
     box-shadow: none;
     padding-right: 1100px;
   }
-  .navigation .bar-series:hover .dropdown-content 
+  .navigation .bar2:hover .dropdown-content 
  {
   display: flex;
-  cursor: pointer;
 }
-.navigation .bar-series:hover .dropbtn {
+.navigation .bar2:hover .dropbtn {
     text-decoration: none;
     width: 100%;
     color: rgb(6, 34, 194);
-    cursor: pointer;
   }
-.navigation .bar-series .dropdown-content ul {
+.navigation .bar2 .dropdown-content ul {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -511,21 +409,21 @@ header .navigation .parties{
     display: block;
     width:400px;
 }
-.navigation .bar-series {
+.navigation .bar2 {
     position: relative;
     display: inline-block;
     width: 166px;
     margin-right: -74px;
-    
+    color: white;
   }
-  .navigation .bar-series .dropdown-content .series {
+  .navigation .bar2 .dropdown-content .series {
     color: rgb(6, 34, 194);
     font-size: 22px;
     font-weight: bold;
  
 }
 
-.navigation .bar-series .dropdown-content .about-series{
+.navigation .bar2 .dropdown-content .about-series{
     color: rgb(153, 151, 151);
     font-size: 11px;
     line-height: 20px;
@@ -533,7 +431,7 @@ header .navigation .parties{
     font-weight: bold;
     
 }
-.navigation .bar-series .dropdown-content .view-all-btn {
+.navigation .bar2 .dropdown-content .view-all-btn {
     border: 1px solid rgb(6, 34, 194);
     background-color:rgb(6, 34, 194);
     color: white;
@@ -543,14 +441,13 @@ header .navigation .parties{
     font-weight: bold;
     width: 100px;
 }
-.navigation .bar-series .dropdown-content .view-all-btn:hover{
+.navigation .bar2 .dropdown-content .view-all-btn:hover{
     position: relative;
-    cursor: pointer;
     bottom: 5px;
     border-bottom: 3px solid rgb(31, 59, 221);
 
 }
-.navigation .bar-series .dropdown-content .about-brandwgon{
+.navigation .bar2 .dropdown-content .about-brandwgon{
     border: 1px solid rgb(221, 220, 220);
     padding-bottom: 26px;
     height: 149px;
@@ -560,15 +457,15 @@ header .navigation .parties{
     padding-top: -11px;
     display: flex;
 }
-.navigation .bar-series .dropdown-content .about-brandwgon .brandwgon{
+.navigation .bar2 .dropdown-content .about-brandwgon .brandwgon{
     display: inline-block;
  
  }
- .navigation .bar-series .dropdown-content .about-brandwgon .brandwgon h3{
+ .navigation .bar2 .dropdown-content .about-brandwgon .brandwgon h3{
     font-size: 12px;
     color:rgb(80, 79, 79);
   }
-  .navigation .bar-series .dropdown-content .about-brandwgon .brandwgon p{
+  .navigation .bar2 .dropdown-content .about-brandwgon .brandwgon p{
      font-size: 12px;
      line-height: 20px;
     
@@ -577,13 +474,13 @@ header .navigation .parties{
  
       
    }
-  .navigation .bar-series .dropdown-content .about-brandwgon  .image{
+  .navigation .bar2 .dropdown-content .about-brandwgon  .image{
     width: 117px;
     height: 177px;
     margin-top: -1px;
     z-index: 1;
 }
-.navigation .bar-series .dropdown-content .production-series{
+.navigation .bar2 .dropdown-content .production-series{
     border: 1px solid rgb(221, 220, 220);
     padding-bottom: 26px;
     height: 149px;
@@ -593,15 +490,15 @@ header .navigation .parties{
     padding-top: -11px;
     display: flex;
 }
-.navigation .bar-series .dropdown-content .production-series .about-production{
+.navigation .bar2 .dropdown-content .production-series .about-production{
     display: inline-block;
  
  }
- .navigation .bar-series .dropdown-content .production-series .about-production h3{
+ .navigation .bar2 .dropdown-content .production-series .about-production h3{
     font-size: 12px;
     color:rgb(80, 79, 79);
   }
-  .navigation .bar-series .dropdown-content .production-series .about-production p{
+  .navigation .bar2 .dropdown-content .production-series .about-production p{
     font-size: 12px;
     line-height: 20px;
    
@@ -610,7 +507,7 @@ header .navigation .parties{
 
      
   }
-  .navigation .bar-series .dropdown-content .production-series  .image{
+  .navigation .bar2 .dropdown-content .production-series  .image{
     width: 117px;
     height: 177px;
     margin-top: -1px;
@@ -619,15 +516,8 @@ header .navigation .parties{
 
 
   /* header about*/
-  .navigation .bar-about .dropbtn{
-    text-decoration: none;
-    
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    font-weight: bold;
-}
 
-  .navigation .bar-about .dropdown-content {
+  .navigation .bar3 .dropdown-content {
     display: none;
     color: black;
     position: absolute;
@@ -636,27 +526,25 @@ header .navigation .parties{
     z-index: 1;
     border-top:1px solid rgb(197, 197, 197) ;
     margin-top: 41px;
-    left: -1081px;
-    padding-left: 961px;
+    left: -1051px;
+    padding-left: 444px;
     box-shadow: none;
     padding-right: 1100px;
 
   }
-.navigation .bar-about:hover .dropdown-content 
+.navigation .bar3:hover .dropdown-content 
  {
   display: flex;
-  cursor: pointer;
 
 
 }
-.navigation .bar-about:hover .dropbtn {
+.navigation .bar3:hover .dropbtn {
     color: #DB2861;
     width: 100%;
     text-decoration: none;
-    cursor: pointer;
   }
 
-  .navigation .bar-about .dropdown-content ul {
+  .navigation .bar3 .dropdown-content ul {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -664,20 +552,20 @@ header .navigation .parties{
     display: block;
     width: 300px;
   }
-.navigation .bar-about {
+.navigation .bar3 {
     position: relative;
     display: inline-block;
     width: 166px;
     margin-right: -74px;
-   
+    color: white;
     
   }
-  .navigation .bar-about .dropdown-content .about {
+  .navigation .bar3 .dropdown-content .about {
     color: rgb(219, 40, 97);
     font-size: 30px;
     font-weight: bold;
 }
-.navigation .bar-about .dropdown-content .more-about {
+.navigation .bar3 .dropdown-content .more-about {
     color: rgb(153, 151, 151);
     font-size: 14px;
     line-height: 25px;
@@ -685,7 +573,7 @@ header .navigation .parties{
     font-weight: bold;
     
 }
-  .navigation .bar-about .dropdown-content .jobs-btn {
+  .navigation .bar3 .dropdown-content .jobs-btn {
     border: 1px solid rgb(219, 40, 97);
     background-color:rgb(219, 40, 97);
     color: white;
@@ -695,15 +583,14 @@ header .navigation .parties{
     font-weight: bold;
     width: 100px;
 }
-.navigation .bar-about .dropdown-content .jobs-btn:hover{
+.navigation .bar3 .dropdown-content .jobs-btn:hover{
     position: relative;
     bottom: 5px;
     border-bottom: 3px solid rgb(226, 89, 133);
-    cursor: pointer;
 
 }
    
-.navigation .bar-about .dropdown-content .company a{
+.navigation .bar3 .dropdown-content .company a{
         color: rgb(80, 79, 79);
         font-size: 15px;
         font-weight: bold;
@@ -711,31 +598,120 @@ header .navigation .parties{
         line-height: 25px;
     
 }
-.navigation .bar-about .dropdown-content .company a:hover{
+.navigation .bar3 .dropdown-content .company a:hover{
         color: rgb(219, 40, 97);
-        cursor: pointer;
+}
+      .dropdown-content ul:hover 
+  {
+      background-color: #f1f1f1;
+      
+    } 
+
+  
+
+/*--------------------------*/  
+  
+.nav1 ul i{
+    color: gray;
 }
 
-/* section 1 introduction brand video*/
+ 
+.nav1 ul {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    padding-right: 821px;
+    padding-top: 21px;
+    text-align: left;
+    }
+.nav1 ul li {
+  
+        list-style: none;
+        
+        
+    }
+.nav1 li a
+    {text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color:white;
 
+    }
+    
+
+header  .btn-log{
+    width: 133px;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-left: 38px;
+      
+    }
+    header  .btn-start{
+        width: 133px;
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        margin-left: 38px;
+        background-color: #1197EC;
+  
+    }
+ .btn-log{
+   margin-top: 20px;
+    background-color:#ebe6e6 ;
+    color: rgb(7, 7, 7);
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+  
+   padding: 10px;
+ 
+     
+}
+
+ .btn-start{
+    margin-top: 20px;
+    background-color:#fcf8f9 ;
+    color: rgb(7, 7, 7);
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 200px;
+  padding: 10px;
+  
+}
+
+header, .into{
+    background-image:url(https://wistia.com/static/images/homepage/wistia-home-pattern_header@2x.webp);
+    background-size: 150px 130px;
+    
+   
+}
 
 .into .soft span{
     border: 1px solid #DB2861;
-    background-color: #DB2861;
+    background-color:#DB2861 ;
     color: white;
-    padding: 17px;
+    padding: 25px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-  
+
+   
 }
 .into .soft span:hover{
     position: relative;
     bottom: 5px;
     border-bottom: 3px solid rgb(70, 69, 70);
-    cursor: pointer;
 
 }
+.into .soft span{
+    width: 100px;
+    height: 50px;
+   
+   
+}
+
 .into{
     display: flex;
     justify-content: space-around;
@@ -754,7 +730,7 @@ header .navigation .parties{
    font-size: 40px;
    flex-wrap: wrap;
    font-family: ' Playfair Display Oswald', sans-serif;
-   color: white;
+   color: blanchedalmond;
    font-weight: 500;
    line-height: 50px;
 
@@ -774,22 +750,23 @@ header .navigation .parties{
  }
 
 .into video{
-    width: 400px;
-    height: 400px;
-    margin-right: 150px;
- 
+    width: 600px;
+    height: 600px;
+    margin-right: 200px;
+   
+
 }
+
 
 .into  img {
   
-    width: 476px;
-    height: 433px;
-    z-index: 0;
+    width: 700px;
+    height: 700px;
+    z-index: 1;
     position: absolute;
-    margin-left: 295px;
+    margin-left: 370px;
+ 
 }
-
-/* section brand */
 
 .brand{
     display: flex;
@@ -813,16 +790,14 @@ header .navigation .parties{
     .brand .info .btn-learn
 {    
     border: 1px solid #3EA9F5;
-    background-color: white;
+    background-color:white ;
     color: #3EA9F5;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 25px;
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 369px;
+    margin-left: 400px;
+
      
 }
 
@@ -830,21 +805,18 @@ header .navigation .parties{
     position: relative;
     bottom: 5px;
     border-bottom: 5px solid rgb(62, 169, 245);
-    cursor: pointer;
 
 }
 
-/*section categories*/
-
  .categories{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 34px;
-    height: 379px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 133px;
+        height: 379px;
              
 }
 
-.categories .quality-experience{
+.categories .cat1{
     padding-bottom:10px ;
     width: 300px;
    flex-wrap: wrap;
@@ -852,13 +824,13 @@ header .navigation .parties{
   
 
 }
-.categories .quality-experience i{
+.categories .cat1 i{
   color: #1d0752;
   font-size: 35px;
   margin-left: 20px;
 
 }
-.categories .quality-experience h1{
+.categories .cat1 h1{
     
     font-family: 'Playfair Display', serif;
     font-size: 21px;
@@ -867,7 +839,7 @@ header .navigation .parties{
     margin-left: 20px;
 }
 
-.categories .quality-experience p{
+.categories .cat1 p{
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 18px;
     flex-wrap: wrap;
@@ -876,25 +848,25 @@ header .navigation .parties{
     line-height: 28px;
 
 }
-.categories .viewers{
+.categories .cat2{
     padding-bottom:10px ;
     width: 300px;
    flex-wrap: wrap;
    margin-left: 15px;
 }
-.categories .viewers i{
+.categories .cat2 i{
    color: rgb(243, 57, 119);
    font-size: 35px;
    margin-left: 20px;
 }
-.categories .viewers h1{
+.categories .cat2 h1{
     font-family: 'Playfair Display', serif;
     font-size: 21px;
     font-weight:bold;
     flex-wrap: wrap;
     margin-left: 20px;
 }
-.categories .viewers p{
+.categories .cat2 p{
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 18px;
     flex-wrap: wrap;
@@ -903,26 +875,26 @@ header .navigation .parties{
     line-height: 28px;
    
 }
-.categories .audience{
+.categories .cat3{
     padding-bottom:10px ;
     width: 300px;
    flex-wrap: wrap;
    margin-left: 15px;
  
 }
-.categories .audience i{
+.categories .cat3 i{
     color: rgb(11, 66, 5);
     font-size: 35px;
     margin-left: 20px;
 }
-.categories .audience h1{
+.categories .cat3 h1{
     font-family: 'Playfair Display', serif;
     font-size: 21px;
     font-weight:bold;
     flex-wrap: wrap;
     margin-left: 20px;
 }
-.categories .audience p{
+.categories .cat3 p{
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 18px;
     flex-wrap: wrap;
@@ -931,26 +903,26 @@ header .navigation .parties{
     line-height: 28px;
    
 }
-.categories .fans-coming{
+.categories .cat4{
     padding-bottom:10px ;
     width: 300px;
    flex-wrap: wrap;
    margin-left: 15px;
   
 }
-.categories .fans-coming i{
+.categories .cat4 i{
     color: rgb(212, 92, 44);
     font-size: 35px;
     margin-left: 20px;
 }
-.categories .fans-coming h1{
+.categories .cat4 h1{
     font-family: 'Playfair Display', serif;
     font-size: 21px;
     font-weight:bold;
     flex-wrap: wrap;
     margin-left: 20px;
 }
-.categories .fans-coming p{
+.categories .cat4 p{
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 18px;
     flex-wrap: wrap;
@@ -959,8 +931,6 @@ header .navigation .parties{
     line-height: 28px;
    
 }
-/*section wistia studia*/
-
 .studio{
     display: flex;
     justify-content: center;
@@ -1058,7 +1028,7 @@ header .navigation .parties{
    
 
 }
-/*.studio .picture .btn1 {
+.studio .picture .btn1 {
   
     border: 1px solid rgb(173, 172, 172);
     color: rgb(182, 201, 236);
@@ -1067,141 +1037,29 @@ header .navigation .parties{
     border-bottom: none;
     border-left: none;
     
-}*/
-
-
-.studio .picture .btn-grp .btn {
-    border: 1px solid rgb(173, 172, 172);
-    color: rgb(182, 201, 236);
-    padding-left: 116px;
-    padding-right: 10px;
-    padding-bottom: 13px;
-    padding-top: 10px;
-    font-size: 18px;
- 
-    
 }
-.studio .picture .btn-grp{
-    height: 51px;
-   
-    position: relative;
-    z-index: 1;
-    padding-top: -14px;
-    padding-bottom: -9px;
-    margin-bottom: -7px;
-    bottom: 19px;
-    display: flex;
-}
-.studio .picture .btn-grp .btn{
-    height: 42px;
-    width: 86px;
-    border: 1px solid rgb(190, 189, 189);
-    border-bottom:none;
-    border-left:none;
- 
-    position: relative;
-    bottom: 13px;
-   
-}
-.studio .picture .btn-grp .btn .btn2{
-   
-    border-right: none;
-   
-   
-}
-
-.studio .picture .btn-grp:hover .btn  {
+.studio .picture .btn1:hover{
     background-color: #363945;
-    cursor: pointer; 
-    opacity: 0.6;
-    
-}
-.studio .picture .btn-grp .btn:hover {
-    background-color: #50054c !important;
-    cursor: pointer; 
-  
-    
-}
+    cursor: pointer;
 
-/*picture2*/
+}
+.studio .picture .btn2:hover{
+    background-color: #aa0947;
+    cursor: pointer;
 
-.studio .picture2 .btn-grp .btn {
-    border: 1px solid rgb(173, 172, 172);
-    color: rgb(182, 201, 236);
-    padding-left: 116px;
-    padding-right: 10px;
-    padding-bottom: 13px;
-    padding-top: 10px;
-    font-size: 18px;
- 
-    
 }
-.studio .picture2 .btn-grp{
-    position: relative;
-    z-index: 1;
-    padding-top: -14px;
-    padding-bottom: -9px;
-    margin-bottom: -7px;
-    bottom: 19px;
-    display: flex;
-    padding-left: 20px;
-}
-.studio .picture2 .btn-grp .btn{
-    height: 42px;
-    width: 86px;
-    border: 1px solid rgb(190, 189, 189);
-    border-bottom:none;
-    border-left:none;
- 
-    position: relative;
-    bottom: 13px;
-   
-}
-.studio .picture2 .btn-grp .btn .btn2{
-   
-    border-right: none;
-   
-   
-}
-
-.studio .picture2 .btn-grp:hover .btn  {
-    background-color: #363945;
-    cursor: pointer; 
-    opacity: 0.8;
-    
-}
-.studio .picture2 .btn-grp .btn:hover {
-    background-color: #1a5005 !important;
-    cursor: pointer; 
-  
-    
-}
-
-/*.studio .picture .btn-studio2:hover{
+.studio .picture2 .btn-studio2:hover{
     background-color:rgb(45, 124, 45);
     cursor: pointer;
    
 
-}*/
-
-/*.studio .picture .btn1:hover{
-    background-color: #363945;
-    cursor: pointer;
-    
-
-}*/
-/*.studio .picture .btn:hover{
-    background-color: #aa0947;
-    cursor: pointer;
-
-}*/
-
-/*.studio .picture2 .btn-studio1:hover{
+}
+.studio .picture2 .btn-studio1:hover{
     background-color: #363945;
     cursor: pointer;
 
-}*/
-/*.studio .picture .btn2{
+}
+.studio .picture .btn2{
         border: 1px solid rgb(173, 172, 172);
         color: rgb(182, 201, 236);
         margin-left: -4px;
@@ -1234,10 +1092,11 @@ header .navigation .parties{
     border-bottom: none;
     border-left: none;
     border-right: none;
-    padding: 15px 63px;
+    padding: 15px 66px;
    
 }
-/*section wistia proud*/
+
+
 
 .proud{
     display: flex;
@@ -1253,56 +1112,31 @@ header .navigation .parties{
 }
 .proud img{
     padding-top: 20px;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 70px;
     padding-bottom: 60px;
-    padding-left: 41px;
 }
-/*section see more wistia*/
-
 .about-wistia{
     display: flex;
-    justify-content: center;
-    padding-bottom: 274px;
+   justify-content: center;
+   padding-bottom: 92px;
 }
 .about-wistia-title{
     display: flex;
    justify-content: center;
-   font-size: 24px;
+   font-size: 19px;
    font-weight: 700px;
-   font-size: 15px;
-   font-weight: bold;
+   font-family: 'Playfair Display', serif;
    font-family: 'Quicksand', sans-serif;
    color: rgb(42, 45, 53);
 }
 .about-wistia .hubspot{
+   
 width: 400px;
 
- }
- .about-wistia .hubspot .color-blue{
-    width: 344px;
-    height: 246px;
-    margin-top: -429px;
-    margin-left: 0px;
-    background-color: #3C8FCB;
-    z-index: 1;
-    position: relative;
-    opacity: 0;
   
   
- } 
- 
- .about-wistia .hubspot .color-blue:hover{
-
-   
-     background-color: #3C8FCB;
-
-    opacity: 0.9;
-    cursor: pointer;
-  
- } 
- 
-
+}
 .about-wistia .hubspot h3{
 
     font-family: 'Playfair Display', serif;
@@ -1325,24 +1159,18 @@ width: 400px;
     height: 246px;
  }
 
-.about-wistia  .hubspot a{
-    font-size: 16px;
-    font-weight: 400;
-    padding-left: -3px;
-    color: rgb(55, 105, 204);
-}
-.about-wistia  .hubspot a:link{
-    color:rgb(55, 105, 204) ;
-}
-.about-wistia  .hubspot a:visited{
-    color:rgb(55, 105, 204) ;
-}
-.about-wistia  .hubspot a:active{
-    color:rgb(55, 105, 204) ;
-}
-
+    
+   
+.about-wistia  .hubspot .image:hover{
+        color:rgb(58, 177, 106);;
+       
+        
+    }
+   
+   
 
 .about-wistia .wistia-founder{
+
     width: 400px;
   
     margin-left: 20px;
@@ -1363,43 +1191,6 @@ width: 400px;
     font-weight: 700;
     color: rgb(42, 45, 53);
 }
-.about-wistia .wistia-founder .color-vert{
-    width: 344px;
-    height: 246px;
-    margin-top: -429px;
-    margin-left: 19px;
-    background-color: #489F83;
-    z-index: 1;
-    position: relative;
-    opacity: 0;
-  
- } 
- 
- .about-wistia .wistia-founder .color-vert:hover{
-
-   
-     background-color: #489F83;
-
-    opacity: 0.8;
-    cursor: pointer;  
- } 
-.about-wistia .wistia-founder a{
-    font-size: 16px;
-    font-weight: 400;
-    padding-left: 22px;
-    color: rgb(55, 105, 204);
-}
-.about-wistia .wistia-founder a:link{
-    color:rgb(55, 105, 204) ;
-}
-.about-wistia .wistia-founder a:visited{
-    color:rgb(55, 105, 204) ;
-}
-.about-wistia .wistia-founder a:active{
-    color:rgb(55, 105, 204) ;
-}
-
-
 .about-wistia .wistia-live h3{
     font-family: 'Libre Baskerville', serif;
    margin-left: 38px;
@@ -1437,26 +1228,6 @@ width: 400px;
    
 
 }
-.about-wistia .wistia-live .color-pink{
-    width: 344px;
-    height: 246px;
-    margin-top: -429px;
-    margin-left: 38px;
-    background-color: #B88E99;
-    z-index: 1;
-    position: relative;
-    opacity: 0;
-  
- } 
- 
- .about-wistia .wistia-live .color-pink:hover{
-
-   
-     background-color: #B88E99;
-
-    opacity: 0.8;
-    cursor: pointer;  
- } 
 .about-wistia .wistia-live a{
     font-size: 16px;
     font-weight: 400;
@@ -1472,10 +1243,12 @@ width: 400px;
 .about-wistia .wistia-live a:active{
     color:rgb(55, 105, 204) ;
 }
+.about-wistia .wistia-founder a{
 
+    padding-left: 19px;
+   
 
-/*busniss wistia*/
-
+}
 .business{
     display: flex;
     justify-content: center;
@@ -1491,14 +1264,15 @@ width: 400px;
  width: 700px;
 flex-wrap: wrap;
 font-size: 40px;
-margin-left: 6px;
+margin-left: 250px;
 text-align: center;
 margin-bottom: 100px;
 line-height:80px;
 
 }
-.business .brand-affinity .btn-free
-{    
+
+    .business .brand-affinity .btn-free
+    {    
         border: 1px solid #DB2861;
         background-color:#DB2861 ;
         color: rgb(255, 255, 255);
@@ -1509,19 +1283,18 @@ line-height:80px;
         border-radius: 5px;
         font-size: 20px;
         font-weight: bold;
-        margin-left: 137px;
+        margin-left: 400px;
             
-}
+    }
     
-.business .brand-affinity .btn-free:hover{
+    .business .brand-affinity .btn-free:hover{
         position: relative;
         bottom: 5px;
         border-bottom: 5px solid rgb(250, 69, 123);
-        cursor: pointer;
     
-}
-.business .brand-affinity .btn-explore
-{    
+    }
+    .business .brand-affinity .btn-explore
+    {    
         border: 1px solid  white;
         background-color:white ;
         color: rgb(19, 18, 18);
@@ -1531,48 +1304,85 @@ line-height:80px;
         font-weight: bold;
         margin-left: 50px;
             
-}
+    }
     
-.business .brand-affinity .btn-explore:hover{
+    .business .brand-affinity .btn-explore:hover{
         position: relative;
         bottom: 5px;
         border-bottom: 5px solid rgb(211, 208, 208);
-        cursor: pointer;
     
+    }
+    
+    .studio .picture .btn-studio2{
+        border: 1px solid rgb(182, 201, 236);
+        align-self: center;
+        color: rgb(182, 201, 236);
+        padding: 15px;
+        border-radius: 5px;
+   
 }
+/*.business .brand-affinity .btn-explore{
+    background-color: rgb(252, 247, 249);
+    align-self: center;
+    color: rgb(182, 201, 236);
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solide rgb(121, 9, 70);
+    margin-left: 100px;
+    font-size: 20px;
 
-/*footer section*/
-
+}
+.business .brand-affinity .btn-explore:hover{
+    box-shadow: 0 16px 32px 0 rgba(189, 6, 6, 0.2), 0 6px 20px 0 rgba(104, 49, 150, 0.19);
+    background-color: rgb(251, 253, 253);
+}*/
 .my-footer{
     display: flex;
     justify-content: space-around;
-    background-color: #262241;
-    height: 300px;
+    background-color:#2A2D35;
+    height: 440px;
+   
     padding-top: 93px;
+    
+ 
     color: rgb(255, 255, 255);
 }
+ 
 .my-footer .my-list ul{
     list-style-type: none;
-    display: inline-flex;  
+    display: inline-flex;
+   
 }
-.my-footer .my-list ul li a{
+
+.my-footer .my-list ul li a
+{
 font-family: 'Roboto', sans-serif;
 text-decoration: none;
 font-size: 18px;
+
+
+
 }
 .my-footer .my-list{
-    width: 401px;
+    width: 410px;
+ 
 }
-.my-footer .my-list img{
-    width: 197px;
-    height: 48px; 
+
+.my-footer .my-list h3
+{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+  
+    font-weight: 400;
+  
 }
 .my-footer .my-list p
 {
     font-family: 'Playfair Display', serif;
     font-family: 'Quicksand', sans-serif;
    
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 50px;
    
@@ -1587,7 +1397,6 @@ font-size: 18px;
 .my-footer .my-list ul li a:hover{
     color:rgb(58, 177, 106);
     text-decoration: underline;
-    cursor: pointer;
     
 }
 .my-footer .my-list ul li a:active{
@@ -1609,7 +1418,7 @@ font-size: 18px;
 .my-footer .product ul{
     padding-bottom:10px ;
     line-height: 35px;
-    font-size: 12px;
+    font-size: 18px;
     list-style: none;
     display: inline-block;
     font-weight: 400px;
@@ -1654,7 +1463,7 @@ font-size: 18px;
 .my-footer .series ul{
     padding-bottom:10px ;
     line-height: 35px;
-    font-size: 12px;
+    font-size: 18px;
     list-style: none;
     display: inline-block;
     font-weight: 400px;
@@ -1678,7 +1487,7 @@ font-size: 18px;
 .my-footer .about ul{
     padding-bottom:10px ;
     line-height: 35px;
-    font-size: 12px;
+    font-size: 18px;
     list-style: none;
     display: inline-block;
     font-weight: 400px;
@@ -1701,7 +1510,7 @@ font-size: 18px;
 .my-footer .support ul{
     padding-bottom:10px ;
     line-height: 35px;
-    font-size: 12px;
+    font-size: 18px;
     list-style: none;
     display: inline-block;
     font-weight: 400px;
@@ -1722,8 +1531,6 @@ font-size: 18px;
     color: white;
     text-decoration: none;
 }
-
-/*copyright footer*/
 
 .copyright-footer{
     display: flex;
@@ -1746,7 +1553,6 @@ font-size: 18px;
 .copyright-footer a:hover{
     color: rgb(45, 124, 45);
     text-decoration: underline;
-    cursor: pointer;
 
 }
 
